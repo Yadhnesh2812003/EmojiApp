@@ -1,0 +1,54 @@
+*{
+        padding:0px;
+        margin:0px;
+        box-sizing: border-box;
+}
+#Body{
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    z-index: -1;
+    background-color: rgb(170, 71, 71);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#innerBody{
+    width:500px;
+    height:500px;
+    background-color:  rgba(209, 54, 54, 0.897);
+    box-shadow:  2px 2px 29px black inset;
+    display:flex;
+    flex-wrap:wrap;
+    padding:29px;
+}
+/*Emogi card*/
+#EmgCard:hover{
+    background-color: rgb(240, 105, 105);
+    cursor: pointer;
+} 
+/*Button Next*/
+#btnContainer{
+background-color:rgba(241, 34, 34, 0.897);
+width:500px;
+height:51px;   
+box-shadow:2px 2px 29px black inset;
+text-align:center;
+padding:11px;
+margin-top:12px;
+border:2px solid rgba(238, 28, 28, 0.897);
+}
+#btnContainer:hover{
+    background-color: rgb(240, 105, 105);
+    cursor: pointer;
+}
+#openBar{
+    background-color:rgba(241, 34, 34);
+    box-Shadow:2px 2px 29px black inset;
+    z-index:10;
+    position:absolute;
+    width:433px;
+    height: 55px;
+    margin-top:-2px;
+}

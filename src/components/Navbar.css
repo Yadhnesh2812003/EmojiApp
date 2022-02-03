@@ -1,0 +1,46 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+/*Navbar Design*/
+ul li {
+    list-style:none;
+    width: 100px;
+    padding: 9px;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+}
+ul li:hover{
+    background-color: rgb(240, 105, 105);
+   /* color:rgb(207, 114, 7);*/
+    cursor: pointer;
+}
+ul{
+    display: flex;
+   /* border:2px solid green;*/
+    width:600px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#container{
+border:2px solid rgba(238, 28, 28, 0.897);
+display:flex;
+justify-content:space-between;
+padding:2px 0px;
+align-items: center;
+background-color: rgba(241, 34, 34, 0.897);
+color:white;
+border-radius: 10px;
+box-shadow:  2px 2px 29px black inset;
+position: fixed;
+z-index: 5;
+width: 100vw;
+}
+#Logo{
+    padding: 12px;
+    /*border:2px solid green;*/
+}
